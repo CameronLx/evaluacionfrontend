@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header .header {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+header .container-parrafo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+header .container-parrafo p {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.img {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main {
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9c82bb;
+    padding: 50px 0;
+    gap: 20px;
+}
+
+main h2 {
+    width: 90%;
+    font-weight: 600;
+    font-size: 25px;
+    color: #444;
+}
+
+main section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+}
+
+main .panoramas {
+    display: flex;
+    justify-content: start;
+    width: 95%;
+}
+
+main section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+}
+
+main section div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+main section div p {
+    font-weight: 600;
+    font-size: 25px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    background: #443ba8;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+footer .container-imagenes {
+    display: flex;
+    width: 80%;
+}
+
+footer .container-imagenes figure {
+    width: 25%;
+}
+
+footer .container-imagenes figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+footer .footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+footer .footer-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .footer-section div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer .section-footer div ul li {
+    line-height: 25px;
+}
+
+footer .contacto {
+    list-style: none
+}
+
+footer .icons {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+footer .icons figure {
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+
+footer .icons figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
